@@ -27,6 +27,24 @@ function Hero(props) {
               </a>
           </div>
 
+          <div className='slide__Item'>
+              <a href="">
+                  <img src="/Images/magicmike-slider.png" alt="" className="slider__Img" />
+              </a>
+          </div>
+
+          <div className='slide__Item'>
+              <a href="">
+                  <img src="/Images/creed-slider.png" alt="" className="slider__Img" />
+              </a>
+          </div>
+
+          <div className='slide__Item'>
+              <a href="">
+                  <img src="/Images/jesus-slider.png" alt="" className="slider__Img" />
+              </a>
+          </div>
+
       </Slider>
       
     </div>

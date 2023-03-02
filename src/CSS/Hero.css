@@ -8,6 +8,14 @@
     margin-top: 20px;
 }
 
+.slider__Img:hover {
+    padding: 0;
+    border-top: 4px solid #2840ad;
+    border-bottom: 4px solid #2840ad;
+    transition-duration: 300ms;
+    z-index: 1;
+}
+
 .slick-arrow {
     opacity: 0;
     height: 100%;
@@ -27,5 +35,28 @@ button:hover {
 
 .slick-dots li button:before {
     color: white !important;
+}
+
+.slick-list {
+    overflow: initial !important;
+}
+
+/* .slick-prev {
+    right: -40px !important
+} */
+
+.slide__Item {
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+} 
+
+.slide__Item > a {
+    border-radius: 4px;
+    box-shadow: rgb(0, 0, 0 / 69%)0 26px 30px --10px, rgb(0, 0, 0 / 73%) 0px 16px 10px -10px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 4px;
 }
 
