@@ -75,4 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Installed Packages
 - react slick (npm install react-slick --save)
 - react slick css (npm install slick-carousel --save)
+- google maps (npm install --save google-map-react)
 
