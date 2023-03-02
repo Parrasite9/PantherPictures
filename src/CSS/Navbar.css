@@ -1,0 +1,44 @@
+.navbar__container {
+    top: 0;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-evenly;
+    height: 57px;
+    width: 100%;
+}
+
+.navbar__left {
+    display: flex;
+    /* flex: 0.5; */
+}
+
+.navbar__left > a > img {
+    object-fit: contain;
+    width: 10%;
+    height: auto;
+}
+
+.navbar__right {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+/* .logo {
+    width: 10%;
+    height: auto;
+    padding: 0 2%;
+    display: inline-block;
+}
+
+.logo > img {
+    display: block;
+    width: 100%;
+} */
+
+.navbar__right > div > a {
+    text-decoration: none;
+    color: white;
+    
+    
+
+}
