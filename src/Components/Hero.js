@@ -23,7 +23,7 @@ function Hero(props) {
 
           <div className='slide__Item'>
               <a href="">
-                  <img src="/Images/antman-slider.png" alt="" className="slider__Img" />
+                  <img src="/images/antman-slider.png" alt="" className="slider__Img" />
                   <button>Get Tickets</button>
                   <button>Learn More</button>
               </a>
@@ -31,7 +31,7 @@ function Hero(props) {
 
           <div className='slide__Item'>
               <a href="">
-                  <img src="/Images/magicmike-slider.png" alt="" className="slider__Img" />
+                  <img src="/images/magicmike-slider.png" alt="" className="slider__Img" />
                   <button>Get Tickets</button>
                   <button>Learn More</button>
               </a>
@@ -39,7 +39,7 @@ function Hero(props) {
 
           <div className='slide__Item'>
               <a href="">
-                  <img src="/Images/creed-slider.png" alt="" className="slider__Img" />
+                  <img src="/images/creed-slider.png" alt="" className="slider__Img" />
                   <button>Get Tickets</button>
                   <button>Learn More</button>
               </a>
@@ -47,7 +47,7 @@ function Hero(props) {
 
           <div className='slide__Item'>
               <a href="">
-                  <img src="/Images/jesus-slider.png" alt="" className="slider__Img" />
+                  <img src="/images/jesus-slider.png" alt="" className="slider__Img" />
                   <button>Get Tickets</button>
                   <button className='hide__button'>Learn More</button>
               </a>

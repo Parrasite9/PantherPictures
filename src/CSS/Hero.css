@@ -1,5 +1,24 @@
-* {
+.hero {
     background-color: #1c2035;
+}
+
+.body__container {
+    position: relative;
+    min-height: calc(100vh - 250px);
+    overflow-x: hidden;
+    display: block;
+    top: 72px;
+    /* background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed; */
+    padding: 0 calc(3.5vw + 5px);
+}
+
+.body__container::after {
+    background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed;
+    content: "";
+    position: absolute;
+    inset: 0px;
+    opacity: 1;
+    z-index: -1;
 }
 
 .slider__Img {
@@ -8,6 +27,11 @@
     margin-top: 20px;
     display: block;
 }
+
+/* .slide__Item > a > img {
+    width: 100%;
+    height: 100%;
+} */
 
 .slider__Img:hover {
     padding: 0;
@@ -61,6 +85,8 @@ button:hover {
     padding: 4px;
 }
 
+
+
 .slide__Item > a > button {
     position: absolute;
     bottom: 15%;
@@ -113,6 +139,10 @@ button:hover {
 }
 
 @media (min-width: 1250px) {
+    .slider__Img {
+        width: 100%;
+        height: 50%;
+    }
     .slide__Item button:last-of-type {
         right: 50%;
     }
