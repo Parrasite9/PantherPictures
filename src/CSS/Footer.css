@@ -1,0 +1,12 @@
+.footer {
+    background-color: #1c2035;
+    text-align: center ;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 5%;
+}
+
+.footer > h2 {
+    margin-top: 0;
+    padding-top: 0;
+}
