@@ -1,9 +1,13 @@
+.navbar {
+    margin-top: 0;
+}
+
 .navbar__container {
     top: 0;
-    background-color: #161616;
+    background-color: #000;
     display: flex;
     justify-content: space-evenly;
-    height: 57px;
+    height: 10%;
     width: 100%;
 }
 
@@ -13,13 +17,15 @@
 }
 
 .navbar__left > a > img {
-    object-fit: contain;
-    width: 10%;
+    /* object-fit: contain; */
+    width: 17%;
+    top: 50px;
     height: auto;
+    margin-left: 5%;
 }
 
 .navbar__right {
-    display: flex;
+    display: none;
     /* justify-content: space-evenly; */
 }
 

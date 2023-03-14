@@ -1,7 +1,11 @@
 .movies {
-    background-color: white;
+    background-color: #222;
     color: black;
     /* display: flex; */
+}
+
+.movies__links > h3 {
+    color: #8AB8FF;
 }
 
 .movies__links > ul {
@@ -22,11 +26,11 @@
 
 .movies__links > ul > li > a {
     cursor: pointer;
-    color: darkgray;
+    color: #EFEFEF;
 }
 
 .movies__links > ul > li.active > a {
-    color: #0000d3;
+    color: #8AB8FF;
     text-decoration: underline;
 }
 
@@ -70,6 +74,7 @@ hr {
 ============= */
 .now__Playing {
     text-align: center;
+    color: white;
 }
 
 .now__Playing > img {
@@ -84,11 +89,12 @@ hr {
 .now__Playing > button {
     cursor: pointer !important;
     color: white;
-    background-color: #0000d3;
+    background-color: #2840AD;
     border-radius: 100px;
     width: 70%;
     height: 40%;
     min-height: 30px;
+    margin-bottom: 15px;
 }
 
 @media (min-width: 750px) {
@@ -102,6 +108,7 @@ hr {
     
     .now__Playing > img {
         grid-row: 1/5;
+        width: 95%;
     }
     
     .now__Playing > h2 {
@@ -118,6 +125,7 @@ hr {
     .now__Playing > p {
         grid-column: 2/4;
         grid-row: 2/3;
+        display: block;
     }
     
     .now__Playing > button {

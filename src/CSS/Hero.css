@@ -4,10 +4,10 @@
 
 .body__container {
     position: relative;
-    min-height: calc(100vh - 375px);
+    min-height: calc(100vh - 575px);
     overflow-x: hidden;
     display: block;
-    top: 72px;
+    top: 0px;
     /* background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed; */
     padding: 0 calc(3.5vw + 5px);
 }

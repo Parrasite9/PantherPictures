@@ -1,6 +1,6 @@
 .offers {
     margin-top: 5%;
-    background-color: #1c2035;
+    background-color: #222;
     color: white;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .offers > button {
-    background-color: white;
-    color: #0000d3;
+    background-color: #0000d3;
+    color: white;
     width: 30%;
     height: 40%;
     min-height: 30px;
@@ -35,9 +35,9 @@
     border-radius: 40px;
 }
 
-.offers > h3 {
-    background-color: white;
-    color: #0000d3;
+.more__Promotions {
+    background-color: #2840AD;
+    color: white;
     text-align: center;
     padding: 5% 0;
 }
@@ -48,6 +48,88 @@
     padding: 5% 0;
 }
 
-.offers > .offersLine {
-    background-color: white;
+.offersLine {
+    border: 2px solid #8AB8FF;
 }
+
+.facebook__Icon {
+    color: #0000d3 !important;
+}
+
+/* =================================== */
+
+.left__img__container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5%;
+    margin: 5% 5%;
+    color: white;
+    /* align-items: center; */
+}
+
+
+.left__img > a > img{
+    width: 100%; 
+    /* align-items: center; */
+}
+
+.left__img {
+    padding: 15% 0;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.left__text > button {
+    cursor: pointer !important;
+    color: white;
+    background-color: #2840AD;
+    border-radius: 100px;
+    width: 35%;
+    /* height: 30%; */
+    min-height: 30px;
+    margin-bottom: 15px;
+    padding: 4% 0;
+}
+
+.right__text {
+    color: white;
+    /* padding: 0 10%; */
+    padding-left: 10%;
+}
+/* ========= */
+.right__img__container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5%;
+    margin: 2% 5%;
+    color: white;
+    align-items: center;
+}
+
+.right__img > a > img{
+    width: 100%; 
+}
+
+.left__text {
+    color: white;
+    /* padding: 0 10%; */
+    padding-right: 10%;
+}
+
+.right__text > button {
+    cursor: pointer !important;
+    color: white;
+    background-color: #2840AD;
+    border-radius: 100px;
+    width: 35%;
+    height: 15%;
+    min-height: 30px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 750px) {
+
+    /* THIS QUERY IS A TERNARY ACTIVATED WITHIN OFFERS.JS  */
+
+}
+

@@ -1,3 +1,7 @@
+/* .app {
+    background-color: #222222;
+} */
+
 /* THIS HELPS THE SLIDER  */
 
 .App {
@@ -5,25 +9,26 @@
     min-height: calc(100vh - 250px);
     overflow-x: hidden;
     display: block;
-    top: 72px;
+    /* top: 10px; */
     padding: 0 calc(2.5vw + 5px);
+    background-color: #222;
 }
 
-.home-container {
+/* .home-container {
     position: relative;
     min-height: calc(100vh - 250px);
     overflow-x: hidden;
     display: block;
     top: 72px;
-    /* background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed; */
+    background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed;
     padding: 0 calc(3.5vw + 5px);
-}
+} */
 
-.home-container::after {
+/* .home-container::after {
     background: url('https://i.imgur.com/ul7I3F0.png') center center / cover no-repeat fixed;
     content: "";
     position: absolute;
     inset: 0px;
     opacity: 1;
     z-index: -1;
-}
+} */
