@@ -2,21 +2,35 @@
     margin-top: 5%;
     background-color: #222;
     color: white;
+
+}
+
+.offer__Section__Odd {
+    background: rgb(34,34,34);
+    background: linear-gradient(304deg, rgba(34,34,34,1) 0%, rgba(138,184,255,1) 8%, rgba(34,34,34,1) 21%, rgba(34,34,34,1) 88%, rgba(138,184,255,1) 100%);
+}
+
+.offer__Section__Even {
+    background: linear-gradient(64deg, rgba(34,34,34,1) 0%, rgba(138,184,255,1) 8%, rgba(34,34,34,1) 21%, rgba(34,34,34,1) 88%, rgba(138,184,255,1) 100%);
 }
 
 .offers > a > img {
-    width: 98%;
+    width: 95%;
     height: auto;
+    margin: 0 4%;
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+
 }
 
-.offers > h2 {
-    margin: 0% 5%;
-    margin-top: 8%;
+.offers > div > h2 {
+    padding: 0% 5%;
+    padding-top: 8%;
     /* font-weight: 700;  */
     font-style: bold;
 }
 
-.offers > p {
+.offers > div > p {
     /* margin: 15% 5%; */
     margin-top: 5%;
     margin-left: 5%;
@@ -24,7 +38,7 @@
     /* margin-bottom: 3%; */
 }
 
-.offers > button {
+.offers > div > button {
     background-color: #0000d3;
     color: white;
     width: 30%;
@@ -62,10 +76,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 5%;
-    margin: 5% 5%;
+    padding: 5% 5%;
     color: white;
     /* align-items: center; */
-}
+    background: rgb(34,34,34);
+    background: linear-gradient(65deg, rgba(34,34,34,1) 0%, rgba(138,184,255,1) 19%, rgba(34,34,34,1) 43%, rgba(34,34,34,1) 83%, rgba(138,184,255,1) 100%);}
 
 
 .left__img > a > img{
@@ -101,9 +116,10 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 5%;
-    margin: 2% 5%;
+    padding: 2% 5%;
     color: white;
     align-items: center;
+    background: linear-gradient(304deg, rgba(34,34,34,1) 0%, rgba(138,184,255,1) 19%, rgba(34,34,34,1) 43%, rgba(34,34,34,1) 83%, rgba(138,184,255,1) 100%);
 }
 
 .right__img > a > img{

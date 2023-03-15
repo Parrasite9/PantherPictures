@@ -1,6 +1,7 @@
 .movies {
     background-color: #222;
     color: black;
+    padding: 0 5%;
     /* display: flex; */
 }
 
@@ -100,7 +101,7 @@ hr {
 @media (min-width: 750px) {
     .now__Playing {
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto auto auto;
         /* grid-gap: 10px; */
         grid-column-gap: 10px;

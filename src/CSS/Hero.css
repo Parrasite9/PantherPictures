@@ -1,5 +1,5 @@
 .hero {
-    background-color: #1c2035;
+    background-color: #222;
 }
 
 .body__container {
@@ -51,6 +51,10 @@
 button:hover {
     opacity: 1;
     transition: opacity 0.2s ease 0s;
+}
+
+.slick-dots {
+    position: static;
 }
 
 .slick-dots li.slick-active button:before {
