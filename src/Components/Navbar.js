@@ -13,11 +13,11 @@ function Navbar() {
               </div>
 
               <div className='navbar__right'>
-                  <div className="navbar__link"><a href=''>HOME</a></div>
-                  <div className="navbar__link"><a href=''>NOW SHOWING</a></div>
+                  <div className="navbar__link nav1"><a href=''>HOME</a></div>
+                  <div className="navbar__link nav2"><a href=''>NOW SHOWING</a></div>
                   {/* <div className="navbar__link"><a href=''>JOIN THE TEAM</a></div> */}
-                  <div className="navbar__link"><a href=''>ADVERTISEMENT</a></div>
-                  <div className="navbar__link"><a href=''>THEATER RENTAL</a></div>
+                  <div className="navbar__link nav3"><a href=''>ADVERTISEMENT</a></div>
+                  <div className="navbar__link nav4"><a href=''>THEATER RENTAL</a></div>
               </div>
         </div>
     </div>

@@ -146,6 +146,7 @@
 @media (min-width: 750px) {
 
     /* THIS QUERY IS A TERNARY ACTIVATED WITHIN OFFERS.JS  */
+    /* OFFERS.JS ONLY HAS THE TRANSITION FROM STACK TO GRID LAYOUT  */
 
 }
 
@@ -154,3 +155,60 @@
 /* .left__button > button {
     max-height: 5px;
 } */
+
+
+
+@media (min-width: 1100px) {
+    .right__text > h2 {
+        font-size: 2em;
+    }
+    .right__text > p {
+        font-size: 1.2em;
+    }
+    .right__text > button {
+        font-size: 1.25em;
+    }
+    .left__text > h2 {
+        font-size: 2em;
+    }
+    .left__text > p {
+        font-size: 1.2em;
+    }
+    .left__text > button {
+        font-size: 1.25em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .right__text > h2 {
+        margin-bottom: 8%;
+    }
+    .right__text > p {
+        margin-bottom: 8%;
+    }
+    .left__text > h2 {
+        margin-bottom: 8%;
+    }
+    .left__text > p {
+        margin-bottom: 8%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .right__text > h2 {
+        font-size: 2.5em;
+    }
+    .right__text > p {
+        font-size: 1.2em;
+    }
+    .left__text > h2 {
+        font-size: 2.5em;
+    }
+    .left__text > p {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1700px) {
+
+}
