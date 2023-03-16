@@ -168,7 +168,15 @@ hr {
     .now__Playing > img {
         width: 65%;
     }
+    .now__Playing > h2 {
+        font-size: 2.5em;
+    }
+    .now__Playing > p {
+        font-size: 1.2em;
+    }
     .now__Playing > button {
         font-size: 1.5em;
+        max-width: 450px;
     }
+
 }
